@@ -1,10 +1,10 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+function Main() {
   return (
-
-
-<div className="wgl-container">
+    <>
+    
+    <div className="wgl-container">
   <div className="row">
     <div id="main-content" className="wgl_col-12">
       <section className="wpb-content-wrapper">
@@ -1245,6 +1245,8 @@ export default function Home() {
   </div>
 </div>
 
-    
-  );
+    </>
+  )
 }
+
+export default Main
