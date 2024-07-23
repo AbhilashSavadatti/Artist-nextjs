@@ -40,7 +40,7 @@ function page() {
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-500">
                   No account?
-                  <a className="underline" href="signup.html">Sign up</a>
+                  <a className="underline" href="signup">Sign up</a>
                 </p>
                 <button type="submit" className="inline-block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white">Sign in</button>
               </div>
