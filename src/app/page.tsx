@@ -68,7 +68,6 @@ export default function Home() {
                       className="block relative"
                     >
                       <img
-                        fetchpriority="high"
                         decoding="async"
                         width={645}
                         height={600}
