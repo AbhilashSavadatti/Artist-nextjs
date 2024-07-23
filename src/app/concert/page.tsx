@@ -3,6 +3,7 @@ import React from 'react'
 function page() {
   return (
     <>
+    
     <div className="sw-full flex justify-center md:justify-start">
   <form className="justify-center sm:ml-10 md:ml-20 lg:ml-40 inline-flex rounded-lg border border-gray-100 bg-gray-100 p-1 sm:p-2 md:p-3 lg:p-4">
     <div className="pt-2 mr-4 relative text-gray-600 items-center">
@@ -38,7 +39,7 @@ function page() {
   className="bg-white pr-20 pl-20 h-full w-full mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
 >
   <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-    <a href="inquiry">
+    <a href="Inquiry.html">
       <img
         src="https://artistbookingcompany.com/wp-content/uploads/2024/03/amitabh-bacchan-740x740.jpg"
         alt="Product"
@@ -171,6 +172,11 @@ function page() {
   </div>
 </section>
 
+    
+    
+    
+    
+    
     
     
     </>
