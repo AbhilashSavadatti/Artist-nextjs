@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 
-function herosection() {
+function HeroSection() {
   return (
     <>
 
@@ -90,4 +90,4 @@ function herosection() {
   )
 }
 
-export default herosection
+export default HeroSection
