@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import HeroSection from "@/components/herosection";
+import HeroSection from "./herosection";
 
 export default function HeroSectionWrapper() {
   const pathname = usePathname();
