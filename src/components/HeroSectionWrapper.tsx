@@ -5,5 +5,8 @@ import HeroSection from "@/components/HeroSection";
 
 export default function HeroSectionWrapper() {
   const pathname = usePathname();
-  return pathname === '/celebrity' ? <HeroSection /> : null;
+  
+  const pathsToShowHeroSection = ['/celebrity', '/concert']; 
+
+  return pathsToShowHeroSection.includes(pathname) ? <HeroSection /> : null;
 }

@@ -6,7 +6,7 @@ function HeroSection() {
     <>
 
 <div
-  className=" page-header page-header_align_left bg-cover bg-no-repeat bg-center bg-[#644c98] h-[200px] mb-[40px] pt-[30px] pb-0"
+  className=" page-header page-header_align_left bg-cover bg-no-repeat bg-center bg-[#644c98] h-[200px] mb-[10px] pt-[30px] pb-0"
   style={{
     backgroundImage:
       'url("https://artistbookingcompany.com/wp-content/uploads/2024/03/about-us-1.png")'
@@ -77,6 +77,27 @@ function HeroSection() {
       </div>
     </div>
   </div>
+
+
+{/* --search bar---------- */}
+<div className="container mx-auto px-4 mt-6">
+  <div className="flex justify-center">
+    <div className="text-center max-w-screen">
+      <h1 className=" text-2xl lg:text-3xl font-bold mb-4">
+        <span className="px-4 text-white">Book artists online for your Events, Wedding and Corporate event</span>
+      </h1>
+      <p className="text-white text-lg">
+        <span className="px-4 text-white">Find the best Artist</span>
+      </p>
+    </div>
+  </div>
+ 
+</div>
+
+
+
+
+
 </div>
 
 
