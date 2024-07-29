@@ -84,12 +84,12 @@ function Page() {
             <div className="mb-6">
               <label className="block text-sm font-semibold mb-2" htmlFor="description">Description*</label>
               <textarea
-                id="description"
-                name="description"
-                rows="4"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                placeholder="Enter a brief description of the concert"
-              />
+  id="description"
+  name="description"
+  className="w-full h-40 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
+  placeholder="Enter a brief description of the concert"
+/>
+
             </div>
             <div className="text-center">
               <button
