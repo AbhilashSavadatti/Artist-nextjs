@@ -4,7 +4,7 @@ function Page() {
   return (
     <>
       <section className="ezy__about8 light pb-14 md:pb-24 bg-gray-50 text-zinc-900">
-        <div className="relative bg-opacity-60 py-12">
+        <div className="relative bg-opacity-60 py-6">
           <div className="container mx-auto px-4">
             {/* Optional: Add a section header or introduction here */}
           </div>
