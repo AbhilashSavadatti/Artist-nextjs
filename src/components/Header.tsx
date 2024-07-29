@@ -27,12 +27,18 @@ function Header() {
                     </button>
                   </div>
                   <nav className="flex-col justify-center flex-grow pb-4 md:pb-0 hidden md:flex md:justify-center md:flex-row">
+                    <div className="relative max-w-[150px] py-2 pt-3">
                     <a className="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="index.html">Home</a>
+                    </div>
+                    <div className="relative max-w-[150px] py-2 pt-3">
                     <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">About Us</a>
-                   
-                      <Dropdown/>
+                    </div>
                     
-                    <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="concert">Concert</a>  
+                      <Dropdown/>
+                      <div className="relative max-w-[150px] py-2 pt-3">
+                      <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="concert">Concert</a>  
+                      </div>
+                   
                   </nav>
                 </div>
               </div>
